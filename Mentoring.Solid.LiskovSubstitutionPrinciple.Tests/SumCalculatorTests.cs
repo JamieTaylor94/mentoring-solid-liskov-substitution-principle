@@ -41,10 +41,10 @@ namespace Mentoring.Solid.LiskovSubstitutionPrinciple.Tests
             EvenNumbersSumCalculator evenNumbersSumCalculator = new EvenNumbersSumCalculator(numbers);
 
             // Act
-            var sound = evenNumbersSumCalculator.Calculate();
+            var result = evenNumbersSumCalculator.Calculate();
 
             // Assert
-            Assert.AreEqual(18, sound);
+            Assert.AreEqual(18, result);
         }
 
         [Test]
@@ -56,10 +56,10 @@ namespace Mentoring.Solid.LiskovSubstitutionPrinciple.Tests
             SumCalculator sumCalculator = new EvenNumbersSumCalculator(numbers);
             
             // Act
-            var sound = sumCalculator.Calculate();
+            var result = sumCalculator.Calculate();
 
             // Assert
-            Assert.AreEqual(18, sound);
+            Assert.AreEqual(18, result);
         }
     }
 }
