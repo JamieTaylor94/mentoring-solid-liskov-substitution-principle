@@ -8,6 +8,6 @@ namespace Mentoring.Solid.LiskovSubstitutionPrinciple
             : base(numbers)
         {
         }
-        public new int Calculate() => Numbers.Where(x => x % 2 == 0).Sum();
+        public int Calculate() => Numbers.Where(x => x % 2 == 0).Sum();
     }
 }
