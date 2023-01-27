@@ -1,5 +1,7 @@
 # Liskov Substitution Principle
 
+Repositories I have labelled "mentoring" are from a time that I was taking on mentoring responsibilities of other developers. I like the idea of providing a lesson situation followed by a practical example. The developer would work through each part and then create a document of their learnings and then we would have a one-to-one session to go over the practical together.
+
 ## What is the Liskov Substitution Principle ?
 
 [What is it?](https://medium.com/@a.vathanaka/benefits-of-the-liskov-substitution-principle-9621dcc20aad)
@@ -18,7 +20,7 @@ To fix this we need to correctly implement the Liskov substitution principle.
 
 Hint: You will have to create a new parent class.
 
-## Evidence for the matrix
+## Writeup
 
 Create a file liskov-substitution-principle.md
 
@@ -28,6 +30,4 @@ What is the liskov substitution principle?
 Why do we use it?   
 
 Insert a link that goes to that file in the repo in your GitHub account.
-
-We will use this as evidence for the L of the SOLID principles.
 
